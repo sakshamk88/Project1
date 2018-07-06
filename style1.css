@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: luna;
+	scroll-behavior: smooth;
+}
+img:hover{
+	border-radius: 5%;
+	height: 300px;
+	width: 300px;
+}
+#d1{
+	position: absolute;
+	margin-left: 1%;
+	margin-top: -15%;
+}
+#d2{
+	position: absolute;
+	margin-left: 24%;
+	margin-top: -15%;
+}
+#d3{
+	position: absolute;
+	margin-top: -15%;
+	margin-left: 68%;
+}
+
+img{
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	transition-duration: 1s;
+}
+.div1{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: #333;
+	opacity: .7;
+}
+#div2{
+	font-size: 46px;
+	color: white;
+	position: absolute;
+	margin: .4% 6%;
+}
+.head{
+	background-image: url("bicycle-wide.jpg");
+	height: 20%;
+	width: 100%;
+
+}
+ul {
+    list-style-type: none;
+    margin-top: .8%;
+    overflow: hidden;
+    background: transparent;
+    margin-right: 50px;
+    position: sticky;
+    top: 0;
+}
+.c1{
+	background-color: #f79838;
+	border-radius: 6px;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    background: transparent;
+    font-size: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+    transition-duration: .5s;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+h1{
+	text-align: center;
+	font-size: 575%;
+	color: #4A4444;
+	letter-spacing: 1px;
+}
+h2{
+	float:center;
+	text-align: center;
+	font-size: 275%;
+	color: #E5E5E5;
+	text-transform: uppercase;
+	letter-spacing: 1%;	
+}
+h3{
+	text-align: center;
+	font-family: "luna";
+	max-width: 45%;
+	margin-left: 25%;
+}
+h6{
+	font-size: 24px;
+	margin-left: 4%;
+	margin-top: -4%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.vl{
+	border-right: 6px solid green;
+    height: 70px;
+    width: 20%;
+    left: 25%;
+    top: 0;
+}
+#map{
+   width: 120px;
+   height: 120px;
+   margin-left: 25%;
+   position: absolute;
+ }
+@media(max-width: 100px) {
+  .div1{
+    display: none;
+  }
+}
+.parallax{
+    background: url(bgimg.jpg) repeat fixed 100%; 
+    background-position: center;
+    background-size: cover;
+}
+.parallax-inner{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	text-align: center;
+	scroll-behavior: smooth;
+}
